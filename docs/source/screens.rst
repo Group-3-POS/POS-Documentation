@@ -24,6 +24,30 @@ Adds keypad onto CheckoutKeypad screen
 Checks if a valid amount has been entered in keypad
 
 
+
+CheckoutTableScreen
+----------------
+This screen retrieves information from database to display search results from inventory based on input
+
+
+`loadTable()`
+Queries the inventory database to display results based on item name entered in checkout screen
+
+
+
+
+`keypad_screen()`
+Transitions current screen to checkout keypad screen
+
+
+`def row_pressed(self, instance_table, instance_row):`
+Desc:
+Function obtains information from a row of data from inventory search results
+Parameters:
+instancetable-Content from MDDatatable
+instancerow-Content from Row pressed
+
+
 ------------
 .. autosummary::
    :toctree: generated
