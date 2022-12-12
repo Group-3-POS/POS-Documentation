@@ -7,4 +7,4 @@ CheckoutScreen
 .. autosummary::
    :toctree: generated
 
-   lumache
+   PayPhone
