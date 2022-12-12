@@ -225,15 +225,15 @@ StatisticsScreen
 ----------------
 
 Functions:
-	def last_thirty(self):
+	``def last_thirty(self):``
 
-	def top_sellers(self):
+	``def top_sellers(self):``
 
-	def by_week(self):
+	``def by_week(self):``
 
-	def by_year(self):
+	``def by_year(self):``
 
-	def by_month(self):
+	``def by_month(self):``
 
 
 
