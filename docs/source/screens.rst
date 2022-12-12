@@ -105,15 +105,139 @@ Also displays popup confirming item is correctly identified
 Parameters:
 Img = Image object of Fruit.png
 
-
 ``go_amount()``
 Sets current screen to checkout_keypad which is to select quantity of item
 
+InventoryScreen 
+----------------
+This screen displays all items in the inventory_db with option to add item, remove item, update price and quantity of item
+
+``addInvTable()``
+
+``row_press()``
+
+``close_inv_popup()``
+
+``check_user_error()``
+
+
+UpdateInvItemScreen
+----------------
+``add_keypad()``
+
+``store_new_item()``
+
+``close_error_popup()``
+
+``close_update_price_popup()``
+
+``updatePriceQuery()``
+
+``callUpdateInvPriceScreen()``
+
+``check_user_error()``
+
+UpdateInvPriceScreen
+----------------
+``add_keypad()``
+
+``store_new_price()``
+
+``close_error_popup()``
+
+``check_user_error()``
+
+AddItemNameScreen
+----------------
+``add_keyboard()``
+
+``store_new_item()``
+
+``check_user_error()``
+
+
+``RemoveItemScreen``
+----------------
+``add_keyboard()``
+
+``def remove_item(self, text):``
+
+``def check_user_error(self, text):``
+
+AddItemPriceScreen 
+----------------
+``def add_keypad(self):``
+
+``def store_new_item(self, text):``
+
+``def check_user_error(self, text):``
+
+AddItemQuantityScreen 
+----------------
+``def add_keypad(self):``
+
+``def store_new_item(self, text):``
+
+``def check_user_error(self, text):``
+
+ReturnScreen 
+----------------
+``def add_keypad(self):``
+
+``def inputvalidation(self):``
+
+ReturnCartScreen 
+----------------
+``def temp_connection(self):``
+
+``def display_info(self, cur, rec_num):``
+
+``def go_menu(self, obj):``
+
+``def remove_item(self, instance_table, instance_row):``
+
+
+``def refund_amount(self):``
+
+ReturnAmountScreen
+----------------
+``def add_keypad(self):``
+
+``def update_db(self):``
+
+``def inputvalidation(self):``
+
+StatisticsScreen
+----------------
+	def last_thirty(self):
+
+	def top_sellers(self):
+
+	def by_week(self):
+
+	def by_year(self):
+
+	def by_month(self):
 
 
 
+CustomizationScreen 
+----------------
+No Functions
 
 
+BackgroundColorScreen 
+----------------
+``def on_color(self, instance, value):``
+
+``def on_press(self):``
+
+ButtonColorScreen
+----------------
+Functions:
+	``def on_color(self, instance, value):``
+
+	``def on_press(self):``
 
 
 ------------
