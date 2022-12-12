@@ -21,4 +21,4 @@ Contents
 .. toctree::
 
    usage
-   screens
+   Screens
