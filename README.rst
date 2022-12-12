@@ -1,13 +1,14 @@
-Template for the Read the Docs tutorial
+Documentation for PayPhone POS App
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Link to Documentation:
+https://pos-documentation.readthedocs.io
+
+
+Tutorial on modification of site
 
 Read the tutorial here:
 
 https://docs.readthedocs.io/en/stable/tutorial/
 
 
-Link to Documentation:
-https://pos-documentation.readthedocs.io
