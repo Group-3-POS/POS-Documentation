@@ -30,7 +30,7 @@ CheckoutTableScreen
 This screen retrieves information from database to display search results from inventory based on input
 
 
-`loadTable()`
+``loadTable()``
 Queries the inventory database to display results based on item name entered in checkout screen
 
 
@@ -104,7 +104,6 @@ Function invokes tflite interpreter to classify  image and display corresponding
 Also displays popup confirming item is correctly identified
 Parameters:
 Img = Image object of Fruit.png
-
 
 
 ``go_amount()``
