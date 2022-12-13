@@ -21,4 +21,5 @@ Contents
 .. toctree::
 
    usage
+   userguide
    screens
