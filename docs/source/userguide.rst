@@ -16,6 +16,7 @@ Press on Camera Button
     :align: left
     :height: 200
 
+
 Press on Confirm Item if item is correct
 .. image:: Images/Camera.png
     :align: left
