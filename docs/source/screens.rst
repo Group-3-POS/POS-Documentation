@@ -114,63 +114,113 @@ InventoryScreen
 ----------------
 This screen displays all items in the inventory_db with option to add item, remove item, update price and quantity of item
 Functions:
-	``addInvTable()``
+	``addInvTable()``Adds MDDatatable with items from inventory_db
 
 	``row_press()``
+	Desc:
+	Stores information of item in list row_info
+	Parameters:
+	Instance_table: MDDatable table object
+	Instance_row: Row object from MDDatatable
 
-	``close_inv_popup()``
-
-	``check_user_error()``
+	Returns: row_info , list with selected  item information
 
 
 UpdateInvItemScreen
 ----------------
+This screen allows user to modify quantity of selected item from inventory screen
 
 Functions:
 	``add_keypad()``
+	Adds keypad to screen
+	
+	``def modify_quantity(self)``
+	Modifies quantity in inventory_db of selected item
+
 
 	``store_new_item()``
+	Selects item to be modified and stores info in list
 
 	``close_error_popup()``
+	Closes MDDialog window for errors
 
 	``close_update_price_popup()``
+	Closes MDDialog window to update price
+
 
 	``updatePriceQuery()``
+	Opens MDDialog asking whether to update price of item 
+
 
 	``callUpdateInvPriceScreen()``
+	Closes MDDialog and changes screen to updateinvpricescreen
+
 
 	``check_user_error()``
+	 Checks if valid quantity has been entered
+
 
 UpdateInvPriceScreen
 ----------------
+This screen updates the price of an item selected from  inventory screen
 
 Functions:
 	``add_keypad()``
+	Adds keypad to screen
+
 
 	``store_new_price()``
+	Stores selected item’s information in new_item list and calls modify price function to change price and changes screen to inventory screen
+
+
 
 	``close_error_popup()``
+	 Closes MDDialog window for errors
+
 
 	``check_user_error()``
+	Opens MDDialog if invalid price entered
+
 
 AddItemNameScreen
 ----------------
+This screen collects new item name  from keyboard to be inserted into database
+
 Functions:
 	``add_keyboard()``
+	Adds keyboard to screen
+
 
 	``store_new_item()``
+	Stores item in new_item list and changes screen to additemprice screen
+
 
 	``check_user_error()``
+	Checks if item name entered is valid or already exists in the database
 
 
 RemoveItemScreen
 ----------------
+This screen removes item from inventory database
+
 Functions:
-	``add_keyboard()``
+	``add_keyboard()``'
+	Adds keyboard to screen
+
 
 	``def remove_item(self, text):``
+	Desc:
+	Removes item from inventory database by name
+	Parameters:
+	text: String entered from keyboard
+
 
 	``def check_user_error(self, text):``
+	Desc:
+	Check if name entered is valid an can be removed from database
+	Parameters
+	text: String entered from keyboard
+
 	
 AddItemPriceScreen 
 ----------------
