@@ -224,66 +224,133 @@ Functions:
 	
 AddItemPriceScreen 
 ----------------
+Screen collects new item price from keypad
 
 Functions:
 	``def add_keypad(self):``
+	Adds keypad onto screen
+
 
 	``def store_new_item(self, text):``
+	Desc:
+	Price is stored into new_item list and screen changed to additemquantity screen
+	Parameter:
+	text: string containing item price
+
 
 	``def check_user_error(self, text):``
+	Desc:
+	Checks if valid price entered
+	Parameters:
+	text : String containing price of item
+
 
 AddItemQuantityScreen 
 ----------------
+Screen collects new item quantity from keypad
+
 Functions:
 	``def add_keypad(self):``
+	Adds keypad onto screen
+
 
 	``def store_new_item(self, text):``
+	Desc:
+	Adds quantity from user input into list and inserts all value from list into database
+	Parameter
+	Text: string from user input containing quantity of item
+
 
 	``def check_user_error(self, text):``
+	Desc
+	Checks if user input is valid
+	Parameter
+	Text: String from user input
+
 
 ReturnScreen 
 ----------------
+Screen allows user to return item based on receipt number
+
 Functions:
 	``def add_keypad(self):``
+	Adds keypad onto screen
 
 	``def inputvalidation(self):``
+	Checks if valid receipt number entered 
+
 
 ReturnCartScreen 
 ----------------
+Screen displays items from customer order
+
 
 Fucntions:
 	``def temp_connection(self):``
+	Calls customersorders database to display all items in customer order
+
 
 	``def display_info(self, cur, rec_num):``
+	Desc:
+	Adds price  and receipt labels to screen
+	Parameters:
+	Cur: Postgres database connection object
+	Rec_num: receipt number for customer order
+
 
 	``def go_menu(self, obj):``
+	Change Current screen to menu screen
+
 
 	``def remove_item(self, instance_table, instance_row):``
+	Selects item from mddatable and stores selected information in list
+
 
 	``def refund_amount(self):``
+	Changes screen to return_amount screen
+
 
 ReturnAmountScreen
 ----------------
+Screen collects refund quantity for item
+
 Functions:
 	``def add_keypad(self):``
+	Adds keypad to screen
+
 
 	``def update_db(self):``
+	Updates customer order database with new item quantity
+
 
 	``def inputvalidation(self):``
+	Checks if refund quantity is valid
+
 
 StatisticsScreen
 ----------------
+Screen displays graphs of customer orders
+
 
 Functions:
 	``def last_thirty(self):``
+	Displays graph with total purchase amount from all orders from last 30 days
+
 
 	``def top_sellers(self):``
+	Displays graph with highest selling items
+
 
 	``def by_week(self):``
+	Displays graph with purchase amount for last week
 
 	``def by_year(self):``
+	Displays graph with average purchase price by year
+
 
 	``def by_month(self):``
+	Displays graph with  average order amount by month
+
 
 
 
@@ -294,18 +361,30 @@ No Functions
 
 BackgroundColorScreen 
 ----------------
+Screen which changes background color of app by using color wheel
+
 Functions:
 	``def on_color(self, instance, value):``
+	Changes color of background screen
+
 
 	``def on_press(self):``
+	Adds color values to new file in app phone directory
+
 
 ButtonColorScreen
 ----------------
+Screen which changes button color for all buttons
+
 
 Functions:
 	``def on_color(self, instance, value):``
+	Changes color of button
+
 
 	``def on_press(self):``
+	Adds color values to new file in app phone directory
+
 
 
 ------------
