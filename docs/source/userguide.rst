@@ -7,7 +7,7 @@ How to Checkout
 | Press on Checkout button in Menu Screen
 
 .. image:: Images/Menuscreen.png
-    :align: left
+    :align: center
     :height: 300
 
 -----------------------------
