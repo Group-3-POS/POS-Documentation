@@ -14,14 +14,14 @@ How to Checkout
 | Press on Camera Button
 
 .. image:: Images/CheckoutScreen.png
-    :align: left
+    :align: center
     :height: 200
 
 -------------------------------------
 | Press on Confirm Item if item is correct
 
 .. image:: Images/Camera.png
-    :align: left
+    :align: center
     :height: 200
 
 
