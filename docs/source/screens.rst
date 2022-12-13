@@ -356,6 +356,8 @@ Functions:
 
 CustomizationScreen 
 ----------------
+Screen contains buttons to change background and button coolors
+
 No Functions
 
 
