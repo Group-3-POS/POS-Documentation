@@ -11,14 +11,14 @@ Press on Checkout button in Menu Screen
     :align: center
     :height: 300
 
-|Press on Camera Button
+| Press on Camera Button
 -----------------------------
 
 .. image:: Images/CheckoutScreen.png
     :align: center
     :height: 200
 
-|Press on Confirm Item if item is correct
+| Press on Confirm Item if item is correct
 -------------------------------------
 
 .. image:: Images/Camera.png
@@ -27,6 +27,7 @@ Press on Checkout button in Menu Screen
 
 
 | Enter Item Quantity and Press Cart Button
+-------------------------------------
 
 .. image:: Images/ItemQuantity.png
     :align: center
@@ -34,7 +35,7 @@ Press on Checkout button in Menu Screen
     
     
     
-|Press Back button to return to Checkout Screen or Press Done to finish
+| Press Back button to return to Checkout Screen or Press Done to finish
 -------------------------------------
 
 .. image:: Images/ItemCartpng
