@@ -184,33 +184,33 @@ Press on Statistics Button
 
 Press on By Month Button
     
-.. image:: Images/StatsByMonth.png
+.. image:: Images/StatsByMonth.PNG
     :align: center
     :height: 200 
  
 Press on By Year Button
     
-.. image:: Images/StatsByYear.png
+.. image:: Images/StatsByYear.PNG
     :align: center
     :height: 200 
     
 
 Press on Last 7 Days Button
     
-.. image:: Images/StatsLast7Days.png
+.. image:: Images/StatsLast7Days.PNG
     :align: center
     :height: 200 
     
 
 Press on Last 30 Days Button
     
-.. image:: Images/StatsLast30Days.png
+.. image:: Images/StatsLast30Days.PNG
     :align: center
     :height: 200 
     
 Press on Top Sellers Button
     
-.. image:: Images/StatsTopSellers.png
+.. image:: Images/StatsTopSellers.PNG
     :align: center
     :height: 200 
 
