@@ -36,6 +36,7 @@ Enter Item Quantity and Press Cart Button
     
 Press Back button to return to Checkout Screen or Press Done to finish
 
+
 .. image:: Images/ItemCart.png
     :align: center
     :height: 200
@@ -51,6 +52,8 @@ After order finished Select Yes Button to send receipt as text
     
 Enter phone number starting with 1 
 |Press Done when complete
+
+
 .. image:: Images/Phone.png
     :align: center
     :height: 200
