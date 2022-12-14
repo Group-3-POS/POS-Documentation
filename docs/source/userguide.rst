@@ -13,9 +13,11 @@ Press on Checkout button in Menu Screen
 
 |
 Press on Camera Button
+
 .. image:: Images/CheckoutScreen.png
     :align: center
     :height: 200
+    
 |
 Press on Confirm Item if item is correct
 
@@ -99,6 +101,7 @@ Type in Item Quantity and select Confiirm
     :height: 200  
     
 
+|
 How to Modify Price and Quantity of item in Inventory
 ------------------     
 
@@ -128,7 +131,8 @@ Type New Price and select Update Button
 .. image:: Images/NewPrice.png
     :align: center
     :height: 200   
-       
+
+|
 How to Return Item
 ------------------   
 
@@ -167,7 +171,7 @@ Modifed order is Displayed with refund amount
     :align: center
     :height: 200 
     
-    
+|   
 Change Background Color 
 ------------------       
 
@@ -199,6 +203,7 @@ Exit app and reopen to see changes
     :align: center
     :height: 200 
 
+|
 Change Button Color 
 ------------------  
 
