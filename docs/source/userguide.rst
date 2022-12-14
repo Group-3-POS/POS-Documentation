@@ -189,7 +189,7 @@ Exit app and reopen to see changes
     :align: center
     :height: 200 
 
-Change Background Color 
+Change Button Color 
 ------------------  
 
 Press on Customization Button
