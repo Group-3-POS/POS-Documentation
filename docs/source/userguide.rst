@@ -51,7 +51,8 @@ After order finished Select Yes Button to send receipt as text
     
     
 Enter phone number starting with 1 
-|Press Done when complete
+
+| Press Done when complete
 
 
 .. image:: Images/Phone.png
