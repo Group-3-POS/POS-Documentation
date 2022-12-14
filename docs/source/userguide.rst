@@ -51,7 +51,7 @@ After order finished Select Yes Button to send receipt as text
     :height: 200
     
     
-Enter phone number staring with 1 
+Enter phone number starting with 1 
 -------------------------------------
 | Press Done when complete
 .. image:: Images/Phone.png
