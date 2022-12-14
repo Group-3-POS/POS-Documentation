@@ -65,7 +65,7 @@ How to Add New Item into Inventory
 
 Press on Inventory Button
 
-.. image:: Images/Menu.png
+.. image:: Images/Menuscreen.png
     :align: center
     :height: 200
 
@@ -131,7 +131,7 @@ How to Return Item
 
 Press on Return Button
 
-.. image:: Images/Menu.png
+.. image:: Images/Menuscreen.png
     :align: center
     :height: 200 
     
@@ -166,7 +166,7 @@ Change Background Color
     
 Press on Customization Button
 
-.. image:: Images/Menu.png
+.. image:: Images/Menuscreen.png
     :align: center
     :height: 200 
     
@@ -194,7 +194,7 @@ Change Button Color
 
 Press on Customization Button
 
-.. image:: Images/Menu.png
+.. image:: Images/Menuscreen.png
     :align: center
     :height: 200 
     
@@ -206,7 +206,7 @@ Press on Change Button Color Button
     
 Select New Color on Color Wheel and select confirm
 
-.. image:: Images/BauttonColor.png
+.. image:: Images/ButtonColor.png
     :align: center
     :height: 200     
     
