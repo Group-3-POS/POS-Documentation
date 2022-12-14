@@ -11,8 +11,8 @@ Press on Checkout button in Menu Screen
     :align: center
     :height: 300
 
-|Press on Camera Button
-
+| Press on Camera Button
+|
 
 .. image:: Images/CheckoutScreen.png
     :align: center
