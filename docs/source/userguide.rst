@@ -59,7 +59,7 @@ Enter phone number starting with 1
     :align: center
     :height: 200
     
-    
+|    
 How to Add New Item into Inventory
 ------------------    
 
