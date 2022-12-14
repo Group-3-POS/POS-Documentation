@@ -171,6 +171,49 @@ Modifed order is Displayed with refund amount
     :align: center
     :height: 200 
     
+|
+Viewing the different statistics
+------------------   
+
+|
+Press on Statistics Button
+
+.. image:: Images/Menuscreen.png
+    :align: center
+    :height: 200 
+
+Press on By Month Button
+    
+.. image:: Images/StatsByMonth.png
+    :align: center
+    :height: 200 
+ 
+Press on By Year Button
+    
+.. image:: Images/StatsByYear.png
+    :align: center
+    :height: 200 
+    
+
+Press on Last 7 Days Button
+    
+.. image:: Images/StatsLast7Days.png
+    :align: center
+    :height: 200 
+    
+
+Press on Last 30 Days Button
+    
+.. image:: Images/StatsLast30Days.png
+    :align: center
+    :height: 200 
+    
+Press on Top Sellers Button
+    
+.. image:: Images/StatsTopSellers.png
+    :align: center
+    :height: 200 
+
 |   
 Change Background Color 
 ------------------       
